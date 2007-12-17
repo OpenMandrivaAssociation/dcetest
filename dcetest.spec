@@ -25,7 +25,6 @@ Patch0:		%{name}-%{version}-optflags.patch
 %if %{build_diet}
 BuildRequires: dietlibc-devel >= 0.20-1mdk
 %endif
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 This little utility dumps MSRPC endpoint information from Windows 
