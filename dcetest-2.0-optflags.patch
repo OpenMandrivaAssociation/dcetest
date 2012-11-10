@@ -1,0 +1,19 @@
+--- Makefile	2001-08-20 22:40:40.000000000 +0200
++++ Makefile.oden	2003-04-12 15:06:11.000000000 +0200
+@@ -1,6 +1,6 @@
+ .SUFFIXES: .a .o .c
+ CC              =  gcc
+-CFLAGS          =  -Wall -funsigned-char -c -fPIC -ggdb
++CFLAGS          =  $(RPM_OPT_FLAGS) -Wall -funsigned-char -c -fPIC -ggdb
+ 
+ BINS = dcetest
+ ALL = $(BINS)
+@@ -8,7 +8,7 @@
+ DCE_OBJS = dcetest.o tcpstuff.o
+ 
+ dcetest: $(DCE_OBJS)
+-	$(CC) -o dcetest $(DCE_OBJS)
++	$(CC) $(RPM_OPT_FLAGS) -o dcetest $(DCE_OBJS)
+ 
+ clean:
+ 	rm -f *~ *.bak
