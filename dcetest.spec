@@ -65,3 +65,39 @@ install -m755 %{name} %{buildroot}%{_bindir}/%{name}
 %{_bindir}/%{name}
 
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 2.0-8mdv2011.0
++ Revision: 617522
+- the mass rebuild of 2010.0 packages
+
+* Thu Sep 03 2009 Thierry Vignaud <tv@mandriva.org> 2.0-7mdv2010.0
++ Revision: 427794
+- rebuild
+
+* Wed Jul 23 2008 Thierry Vignaud <tv@mandriva.org> 2.0-6mdv2009.0
++ Revision: 243985
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 2.0-4mdv2008.1
++ Revision: 140721
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Fri Dec 22 2006 Oden Eriksson <oeriksson@mandriva.com> 2.0-4mdv2007.0
++ Revision: 101634
+- Import dcetest
+
+* Sat Jul 15 2006 Oden Eriksson <oeriksson@mandriva.com> 2.0-4mdv2007.0
+- rebuild
+
+* Sat Jun 04 2005 Oden Eriksson <oeriksson@mandriva.com> 2.0-3mdk
+- rebuild
+
+* Mon May 17 2004 Oden Eriksson <oeriksson@mandrakesoft.com> 2.0-2mdk
+- build release
+
