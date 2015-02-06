@@ -16,7 +16,7 @@
 Summary: 	The @stake MSRPC dumper
 Name:		dcetest
 Version:	2.0
-Release:	%mkrel 8
+Release:	9
 License:	GPL
 Group:		Networking/Other
 URL:		http://www.atstake.com/research/tools/info_gathering/
