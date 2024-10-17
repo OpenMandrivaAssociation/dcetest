@@ -19,7 +19,7 @@ Version:	2.0
 Release:	9
 License:	GPL
 Group:		Networking/Other
-URL:		http://www.atstake.com/research/tools/info_gathering/
+URL:		https://www.atstake.com/research/tools/info_gathering/
 Source0:	%{name}.tar.bz2
 Patch0:		%{name}-%{version}-optflags.patch
 %if %{build_diet}
