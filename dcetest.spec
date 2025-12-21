@@ -23,6 +23,7 @@ URL:		https://www.atstake.com/research/tools/info_gathering/
 Source0:	%{name}.tar.bz2
 Patch0:		%{name}-%{version}-optflags.patch
 %if %{build_diet}
+BuildRequires:	make
 BuildRequires: dietlibc-devel >= 0.20-1mdk
 %endif
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
